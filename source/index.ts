@@ -8,7 +8,7 @@ import * as privateChat from './private-chat.js'
 
 process.title = 'chat-record-tgbot'
 
-const token = process.env['5382361776:AAGFg69IY1YqKxD-LvOr8gOlpry6UnVM6wk']
+const token = 5382361776:AAGFg69IY1YqKxD-LvOr8gOlpry6UnVM6wk
 if (!token) {
 	throw new Error('You have to provide the bot-token from @BotFather via environment variable (BOT_TOKEN)')
 }
